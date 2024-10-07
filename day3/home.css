@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: aqua;
+}
+img{
+    width: 120px;
+    height: 140px;
+    padding: 5px;
+}
+a,.lgn,.sgn{
+    background-color: rgb(128, 128, 212);
+    font-size: 40px;
+    border: 5px solid whitesmoke;
+    border-radius: 12px;
+    text-decoration: none;
+}
+a:hover
+{
+    background-color: bisque;
+    color: rgb(119, 119, 190);
+}
+.main-content
+{
+    display: flex;
+    border: 3px solid gray;
+    justify-content: space-between;
+    margin: 20px;
+    height: 300px;
+    background-color: aquamarine;
+}
+table
+{
+    font-size: 30px;
+    border: 5px solid greenyellow;
+    border-radius: 12px;
+}
